@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TheSelfieApp</string>
+    <string name="app_secret_kinvey">1292c4f1117c454babe521894d0cca80</string>
+    <string name="app_key_kinvey">kid_rkDdEdHo</string>
+</resources>

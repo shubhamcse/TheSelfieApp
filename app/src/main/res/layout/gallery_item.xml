@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp">
+<RelativeLayout
+    android:id="@+id/relativeLayoutInner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+
+        android:adjustViewBounds="true"
+        android:src="@drawable/sync"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:id="@+id/syncStatusImageView"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/crtloggedin"
+        android:layout_alignRight="@+id/thumbnail"
+
+
+        />
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/video_play_button"
+
+       android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+<TextView
+    android:id="@+id/imageName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/relativeLayoutInner"
+    android:visibility="gone"
+    android:gravity="center"
+    android:maxWidth="96dp"
+    android:text="pkkpopo"/>
+</RelativeLayout>
